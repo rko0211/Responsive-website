@@ -45,7 +45,7 @@
 @media only screen and (max-width: 620px )
 {
     /* For mobile Phones  */
-     .menu .main .right{
+     .menu, .main, .right{
         width: 100%;
      }
 }
