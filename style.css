@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+#mdiv {
+    overflow: auto;
+}
+
+.menu {
+
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.menu a {
+    margin-top: 7px;
+    color: black;
+    background-color: #e5e5e5;
+    width: 100%;
+    /*100% width with respect to menue div*/
+    padding: 8px;
+    display: block;
+
+}
+
+.main {
+    float: left;
+    padding: 0 20px;
+    width: 60%;
+    /* 100% width with respect to mdiv */
+}
+
+.right {
+    float: left;
+    width: 20%;
+    /* With respect to to mdiv*/
+    text-align: center;
+    background-color: #e5e5e5;
+    padding: 15px;
+    margin-top: 7px;
+}
+
+/* Whenever we applied ay CSS property related with text on div element then it will be applied on it's content only  */
+@media only screen and (max-width: 620px )
+{
+    /* For mobile Phones  */
+     .menu .main .right{
+        width: 100%;
+     }
+}
